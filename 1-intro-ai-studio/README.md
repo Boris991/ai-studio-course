@@ -6,18 +6,13 @@
 
 ## Материалы
 
-<dl>
-<dt>📖 <a href="https://disk.yandex.ru/i/tUgkFRO7XAkiOQ">AI Studio и Yandex Cloud</a></dt>
-<dt>✏️ <a href="CloudConnect.ipynb">Cloud Connect</a></dt>
-<dd>Учимся использовать сервисы Yandex AI Studio: генерировать изображения и вызывать LLM<br/>
-<a href="https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/1-intro-ai-studio/CloudConnect.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a><br/><a href="https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F1-intro-ai-studio%2FCloudConnect.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder"></a><br/><a href="https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/1-intro-ai-studio/CloudConnect.ipynb"><img src="https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg" alt="DataSphere"></a>
-</dd>
-<dt>🔬 <a href="Labs/LLMTalk.ipynb">LLM Talk</a></dt>
-<dd>
-Заставляем две LLM общаться друг с другом — создание класса `Agent` и диалог между двумя LLM<br/>
-<a href="https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/1-intro-ai-studio/Labs/LLMTalk.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a><br/><a href="https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F1-intro-ai-studio%2FLabs%2FLLMTalk.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder"></a><br/><a href="https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/1-intro-ai-studio/Labs/LLMTalk.ipynb"><img src="https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg" alt="DataSphere"></a>
-</dd>
-</dl>
+| Тип | Материал | Описание | Запуск |
+|:---:|----------|----------|:------:|
+| 📖 | [AI Studio и Yandex Cloud][LectAIStudio] | Основные концепции Yandex Cloud и вызов API через Yandex AI Studio SDK и Responses API | [![PPTX](https://img.shields.io/badge/PPTX-red.svg)][LectAIStudio] |
+| ✏️ | [CloudConnect.ipynb](CloudConnect.ipynb) | Подключение к Yandex Cloud, работа с YandexGPT, YandexART и введение в Responses API | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/1-intro-ai-studio/CloudConnect.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F1-intro-ai-studio%2FCloudConnect.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/1-intro-ai-studio/CloudConnect.ipynb) |
+| 🔬 | [LLMTalk.ipynb](Labs/LLMTalk.ipynb) | Две LLM общаются друг с другом — создание класса `Agent` и диалог между двумя LLM | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/1-intro-ai-studio/Labs/LLMTalk.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F1-intro-ai-studio%2FLabs%2FLLMTalk.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/1-intro-ai-studio/Labs/LLMTalk.ipynb) |
+
+[LectAIStudio]: https://disk.yandex.ru/i/tUgkFRO7XAkiOQ
 
 ## Авторизация в облаке
 
@@ -67,6 +62,14 @@ Yandex AI Studio предоставляет несколько способов 
 1. **Ручное накопление сообщений** — формирование списка `[{"role": "user", "content": "..."}, {"role": "assistant", "content": "..."}, ...]` и передача его целиком в каждый запрос.
 2. **Объект `conversation`** — специальный объект для хранения и управления диалогом.
 3. **Параметр `previous_response_id`** — простейший способ, при котором в каждый следующий запрос передаётся идентификатор предыдущего ответа, а облако само восстанавливает цепочку диалога. Для этого необходимо установить `store=True` (сохранение ответов в облаке).
+
+## Практические работы
+
+### 🔬 LLMTalk.ipynb
+
+Вы когда-нибудь задумывались, о чем могли бы говорить два продвинутых искусственных интеллекта, оставшись наедине? Эта лабораторная работа предлагает вам стать цифровым драматургом и организовать беседу между двумя различными языковыми моделями. Вы создадите простой класс `Agent` и подготовите сцену для увлекательного диалога на выбранную вами тему, наблюдая за тем, как раскрываются их уникальные личности.
+
+По окончании этого упражнения вы не только станете свидетелем разговора между двумя ИИ, но и создадите основополагающий компонент для всех будущих мультиагентных систем в этом курсе. Это ваш первый шаг от простого использования ИИ к управлению целым оркестром из них, что открывает мир возможностей для создания сложных, взаимодействующих интеллектуальных систем.
 
 ## Вспомогательные файлы
 
