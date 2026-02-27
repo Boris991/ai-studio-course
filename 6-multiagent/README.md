@@ -1,4 +1,4 @@
-# Раздел 6: Мультиагентные системы
+# Раздел 6: Многоагентные системы
 
 ## Обзор
 
@@ -9,8 +9,8 @@
 | Тип | Материал | Описание | Запуск |
 |:---:|----------|----------|:------:|
 | 📖 | [Агенты и многоагентные системы][LectAgents] |  Говорим про агентный цикл, планирование и ReAct-агентов, а также как и зачем комбинировать агентов в многоагентную систему | [![PPTX](https://img.shields.io/badge/PPTX-red.svg)][LectAgents] |
-| ✏️ | [DeepResearch.ipynb](DeepResearch.ipynb) | Deep Research Agent: агентский цикл, RunHooks, Streaming, три паттерна мультиагентной координации | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/6-multiagent/DeepResearch.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F6-multiagent%2FDeepResearch.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/6-multiagent/DeepResearch.ipynb) |
-| 🔬 | [DeepResearchLab.ipynb](Labs/DeepResearchLab.ipynb) | Medical Deep Research Agent — мультиагентная система с MCP-серверами и генерацией PDF-отчёта | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/6-multiagent/Labs/DeepResearchLab.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F6-multiagent%2FLabs%2FDeepResearchLab.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/6-multiagent/Labs/DeepResearchLab.ipynb) |
+| ✏️ | [DeepResearch.ipynb](DeepResearch.ipynb) | Deep Research Agent: агентский цикл, RunHooks, Streaming, три паттерна многоагентной координации | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/6-multiagent/DeepResearch.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F6-multiagent%2FDeepResearch.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/6-multiagent/DeepResearch.ipynb) |
+| 🔬 | [DeepResearchLab.ipynb](Labs/DeepResearchLab.ipynb) | Medical Deep Research Agent — многоагентная система с MCP-серверами и генерацией PDF-отчёта | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/6-multiagent/Labs/DeepResearchLab.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F6-multiagent%2FLabs%2FDeepResearchLab.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/6-multiagent/Labs/DeepResearchLab.ipynb) |
 
 [LectAgents]: https://disk.yandex.ru/d/SXlgGWa685WyRQ
 
@@ -82,7 +82,7 @@
 
 3. **Декомпозиция задачи.** Дополнительный уровень разбиения сложной задачи на подзадачи упрощает работу для каждого отдельного агента, повышая общее качество решения.
 
-### Паттерны координации мультиагентных систем
+### Паттерны координации многоагентных систем
 
 OpenAI Agents SDK поддерживает различные механизмы координации агентов в многоагентной системе: передача управления (handoff), агенты-как-инструменты. Это позволяет строить различные паттерны координации агентов, каждый из которых подходит для разных сценариев.
 
