@@ -53,7 +53,7 @@
 | 🔬 | [DeepResearchLab.ipynb](6-multiagent/Labs/DeepResearchLab.ipynb) | Medical Deep Research Agent — многоагентная система с MCP-серверами и генерацией PDF-отчёта | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/6-multiagent/Labs/DeepResearchLab.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F6-multiagent%2FLabs%2FDeepResearchLab.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/6-multiagent/Labs/DeepResearchLab.ipynb) |
 
 [LectAIStudio]: https://disk.yandex.ru/i/tUgkFRO7XAkiOQ
-[LectRespAPI]: https://disk.yandex.ru/d/aMVoyy5HjdrOrQ
+[LectRespAPI]: https://disk.yandex.ru/i/yRGTadYhxkmb5Q
 [LectFunctionCalling]: https://disk.yandex.ru/d/ouAHZ-tAkJ1LLA
 [LectSearch]: https://disk.yandex.ru/d/_ji2zdWwYiRQgg
 [LectMCP]: https://disk.yandex.ru/d/JENl9qPI6wCeXg

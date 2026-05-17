@@ -13,7 +13,7 @@
 | 🔬 | [PaperSummarize.ipynb](Labs/PaperSummarize.ipynb) | Суммаризация научной статьи — извлечение ключевой информации из текста | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/2-responses-api/Labs/PaperSummarize.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F2-responses-api%2FLabs%2FPaperSummarize.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/2-responses-api/Labs/PaperSummarize.ipynb) |
 | 🔬 | [AgenticImageGeneraton.ipynb](Labs/AgenticImageGeneraton.ipynb) | Агентный цикл генерации изображений — итеративная генерация и улучшение изображений с помощью LLM | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandex-ai-studio/ai-studio-course/blob/main/2-responses-api/Labs/AgenticImageGeneraton.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yandex-ai-studio/ai-studio-course/HEAD?urlpath=%2Fdoc%2Ftree%2F2-responses-api%2FLabs%2FAgenticImageGeneraton.ipynb) [![DataSphere](https://storage.yandexcloud.net/datasphere-assets/datasphere_badge_v2_ru.svg)](https://datasphere.yandex.cloud/import-ipynb?path=https://raw.githubusercontent.com/yandex-ai-studio/ai-studio-course/main/2-responses-api/Labs/AgenticImageGeneraton.ipynb) |
 
-[LectRespAPI]: https://disk.yandex.ru/d/aMVoyy5HjdrOrQ
+[LectRespAPI]: https://disk.yandex.ru/i/yRGTadYhxkmb5Q
 
 ## Теоретический материал
 
