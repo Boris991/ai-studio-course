@@ -1,4 +1,4 @@
-# Раздел 5: Model Context Protocol (MCP)
+# Раздел 6: Model Context Protocol (MCP)
 
 ## Обзор
 
